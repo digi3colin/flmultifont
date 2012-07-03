@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_0fb00" output="bin\swf\font" format="0" static="false">
+<font id="script_0fb00" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+0fb00U+0fb01U+0fb02U+0fb03U+0fb04U+0fb05U+0fb06U+0fb07U+0fb08U+0fb09U+0fb0aU+0fb0bU+0fb0cU+0fb0dU+0fb0eU+0fb0f"/>
+</font>
+<font id="script_0fb10" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+0fb10U+0fb11U+0fb12U+0fb13U+0fb14U+0fb15U+0fb16U+0fb17U+0fb18U+0fb19U+0fb1aU+0fb1bU+0fb1cU+0fb1dU+0fb1eU+0fb1f"/>
+</font>
+<font id="script_0fb20" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+0fb20U+0fb21U+0fb22U+0fb23U+0fb24U+0fb25U+0fb26U+0fb27U+0fb28U+0fb29U+0fb2aU+0fb2bU+0fb2cU+0fb2dU+0fb2eU+0fb2f"/>
+</font>
+<font id="script_0fb30" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+0fb30U+0fb31U+0fb32U+0fb33U+0fb34U+0fb35U+0fb36U+0fb37U+0fb38U+0fb39U+0fb3aU+0fb3bU+0fb3cU+0fb3dU+0fb3eU+0fb3f"/>
+</font>
+<font id="script_0fb40" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+0fb40U+0fb41U+0fb42U+0fb43U+0fb44U+0fb45U+0fb46U+0fb47U+0fb48U+0fb49U+0fb4aU+0fb4bU+0fb4cU+0fb4dU+0fb4eU+0fb4f"/>
+</font>
+</library>

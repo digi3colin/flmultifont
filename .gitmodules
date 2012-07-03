@@ -1,0 +1,6 @@
+[submodule "doot"]
+	path = doot
+	url = git@github.com:digi3colin/doot.git
+[submodule "FAST3"]
+	path = FAST3
+	url = git://github.com/digi3colin/FAST3.git

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_01d80" output="bin\swf\font" format="0" static="false">
+<font id="script_01d80" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01d80U+01d81U+01d82U+01d83U+01d84U+01d85U+01d86U+01d87U+01d88U+01d89U+01d8aU+01d8bU+01d8cU+01d8dU+01d8eU+01d8f"/>
+</font>
+<font id="script_01d90" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01d90U+01d91U+01d92U+01d93U+01d94U+01d95U+01d96U+01d97U+01d98U+01d99U+01d9aU+01d9bU+01d9cU+01d9dU+01d9eU+01d9f"/>
+</font>
+<font id="script_01da0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01da0U+01da1U+01da2U+01da3U+01da4U+01da5U+01da6U+01da7U+01da8U+01da9U+01daaU+01dabU+01dacU+01dadU+01daeU+01daf"/>
+</font>
+<font id="script_01db0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01db0U+01db1U+01db2U+01db3U+01db4U+01db5U+01db6U+01db7U+01db8U+01db9U+01dbaU+01dbbU+01dbcU+01dbdU+01dbeU+01dbf"/>
+</font>
+</library>

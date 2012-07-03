@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_01e80" output="bin\swf\font" format="0" static="false">
+<font id="script_01e80" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01e80U+01e81U+01e82U+01e83U+01e84U+01e85U+01e86U+01e87U+01e88U+01e89U+01e8aU+01e8bU+01e8cU+01e8dU+01e8eU+01e8f"/>
+</font>
+<font id="script_01e90" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01e90U+01e91U+01e92U+01e93U+01e94U+01e95U+01e96U+01e97U+01e98U+01e99U+01e9aU+01e9bU+01e9cU+01e9dU+01e9eU+01e9f"/>
+</font>
+<font id="script_01ea0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01ea0U+01ea1U+01ea2U+01ea3U+01ea4U+01ea5U+01ea6U+01ea7U+01ea8U+01ea9U+01eaaU+01eabU+01eacU+01eadU+01eaeU+01eaf"/>
+</font>
+<font id="script_01eb0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01eb0U+01eb1U+01eb2U+01eb3U+01eb4U+01eb5U+01eb6U+01eb7U+01eb8U+01eb9U+01ebaU+01ebbU+01ebcU+01ebdU+01ebeU+01ebf"/>
+</font>
+<font id="script_01ec0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01ec0U+01ec1U+01ec2U+01ec3U+01ec4U+01ec5U+01ec6U+01ec7U+01ec8U+01ec9U+01ecaU+01ecbU+01eccU+01ecdU+01eceU+01ecf"/>
+</font>
+<font id="script_01ed0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01ed0U+01ed1U+01ed2U+01ed3U+01ed4U+01ed5U+01ed6U+01ed7U+01ed8U+01ed9U+01edaU+01edbU+01edcU+01eddU+01edeU+01edf"/>
+</font>
+<font id="script_01ee0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01ee0U+01ee1U+01ee2U+01ee3U+01ee4U+01ee5U+01ee6U+01ee7U+01ee8U+01ee9U+01eeaU+01eebU+01eecU+01eedU+01eeeU+01eef"/>
+</font>
+<font id="script_01ef0" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+01ef0U+01ef1U+01ef2U+01ef3U+01ef4U+01ef5U+01ef6U+01ef7U+01ef8U+01ef9U+01efaU+01efbU+01efcU+01efdU+01efeU+01eff"/>
+</font>
+</library>

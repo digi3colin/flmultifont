@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_03000" output="bin\swf\font" format="0" static="false">
+<font id="script_03000" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03000U+03001U+03002U+03003U+03004U+03005U+03006U+03007U+03008U+03009U+0300aU+0300bU+0300cU+0300dU+0300eU+0300f"/>
+</font>
+<font id="script_03010" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03010U+03011U+03012U+03013U+03014U+03015U+03016U+03017U+03018U+03019U+0301aU+0301bU+0301cU+0301dU+0301eU+0301f"/>
+</font>
+<font id="script_03020" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03020U+03021U+03022U+03023U+03024U+03025U+03026U+03027U+03028U+03029U+0302aU+0302bU+0302cU+0302dU+0302eU+0302f"/>
+</font>
+<font id="script_03030" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03030U+03031U+03032U+03033U+03034U+03035U+03036U+03037U+03038U+03039U+0303aU+0303bU+0303cU+0303dU+0303eU+0303f"/>
+</font>
+</library>

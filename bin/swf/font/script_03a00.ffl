@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_03a00" output="bin\swf\font" format="0" static="false">
+<font id="script_03a00" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a00U+03a01U+03a02U+03a03U+03a04U+03a05U+03a06U+03a07U+03a08U+03a09U+03a0aU+03a0bU+03a0cU+03a0dU+03a0eU+03a0f"/>
+</font>
+<font id="script_03a10" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a10U+03a11U+03a12U+03a13U+03a14U+03a15U+03a16U+03a17U+03a18U+03a19U+03a1aU+03a1bU+03a1cU+03a1dU+03a1eU+03a1f"/>
+</font>
+<font id="script_03a20" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a20U+03a21U+03a22U+03a23U+03a24U+03a25U+03a26U+03a27U+03a28U+03a29U+03a2aU+03a2bU+03a2cU+03a2dU+03a2eU+03a2f"/>
+</font>
+<font id="script_03a30" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a30U+03a31U+03a32U+03a33U+03a34U+03a35U+03a36U+03a37U+03a38U+03a39U+03a3aU+03a3bU+03a3cU+03a3dU+03a3eU+03a3f"/>
+</font>
+<font id="script_03a40" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a40U+03a41U+03a42U+03a43U+03a44U+03a45U+03a46U+03a47U+03a48U+03a49U+03a4aU+03a4bU+03a4cU+03a4dU+03a4eU+03a4f"/>
+</font>
+<font id="script_03a50" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a50U+03a51U+03a52U+03a53U+03a54U+03a55U+03a56U+03a57U+03a58U+03a59U+03a5aU+03a5bU+03a5cU+03a5dU+03a5eU+03a5f"/>
+</font>
+<font id="script_03a60" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a60U+03a61U+03a62U+03a63U+03a64U+03a65U+03a66U+03a67U+03a68U+03a69U+03a6aU+03a6bU+03a6cU+03a6dU+03a6eU+03a6f"/>
+</font>
+<font id="script_03a70" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+03a70U+03a71U+03a72U+03a73U+03a74U+03a75U+03a76U+03a77U+03a78U+03a79U+03a7aU+03a7bU+03a7cU+03a7dU+03a7eU+03a7f"/>
+</font>
+</library>

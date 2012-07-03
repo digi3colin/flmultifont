@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_06b00" output="bin\swf\font" format="0" static="false">
+<font id="script_06b00" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b00U+06b01U+06b02U+06b03U+06b04U+06b05U+06b06U+06b07U+06b08U+06b09U+06b0aU+06b0bU+06b0cU+06b0dU+06b0eU+06b0f"/>
+</font>
+<font id="script_06b10" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b10U+06b11U+06b12U+06b13U+06b14U+06b15U+06b16U+06b17U+06b18U+06b19U+06b1aU+06b1bU+06b1cU+06b1dU+06b1eU+06b1f"/>
+</font>
+<font id="script_06b20" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b20U+06b21U+06b22U+06b23U+06b24U+06b25U+06b26U+06b27U+06b28U+06b29U+06b2aU+06b2bU+06b2cU+06b2dU+06b2eU+06b2f"/>
+</font>
+<font id="script_06b21" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+06b20U+06b21U+06b22U+06b23U+06b24U+06b25U+06b26U+06b27U+06b28U+06b29U+06b2aU+06b2bU+06b2cU+06b2dU+06b2eU+06b2f"/>
+</font>
+<font id="script_06b30" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b30U+06b31U+06b32U+06b33U+06b34U+06b35U+06b36U+06b37U+06b38U+06b39U+06b3aU+06b3bU+06b3cU+06b3dU+06b3eU+06b3f"/>
+</font>
+<font id="script_06b31" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+06b30U+06b31U+06b32U+06b33U+06b34U+06b35U+06b36U+06b37U+06b38U+06b39U+06b3aU+06b3bU+06b3cU+06b3dU+06b3eU+06b3f"/>
+</font>
+<font id="script_06b40" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b40U+06b41U+06b42U+06b43U+06b44U+06b45U+06b46U+06b47U+06b48U+06b49U+06b4aU+06b4bU+06b4cU+06b4dU+06b4eU+06b4f"/>
+</font>
+<font id="script_06b41" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+06b40U+06b41U+06b42U+06b43U+06b44U+06b45U+06b46U+06b47U+06b48U+06b49U+06b4aU+06b4bU+06b4cU+06b4dU+06b4eU+06b4f"/>
+</font>
+<font id="script_06b50" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b50U+06b51U+06b52U+06b53U+06b54U+06b55U+06b56U+06b57U+06b58U+06b59U+06b5aU+06b5bU+06b5cU+06b5dU+06b5eU+06b5f"/>
+</font>
+<font id="script_06b51" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+06b50U+06b51U+06b52U+06b53U+06b54U+06b55U+06b56U+06b57U+06b58U+06b59U+06b5aU+06b5bU+06b5cU+06b5dU+06b5eU+06b5f"/>
+</font>
+<font id="script_06b60" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b60U+06b61U+06b62U+06b63U+06b64U+06b65U+06b66U+06b67U+06b68U+06b69U+06b6aU+06b6bU+06b6cU+06b6dU+06b6eU+06b6f"/>
+</font>
+<font id="script_06b61" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+06b60U+06b61U+06b62U+06b63U+06b64U+06b65U+06b66U+06b67U+06b68U+06b69U+06b6aU+06b6bU+06b6cU+06b6dU+06b6eU+06b6f"/>
+</font>
+<font id="script_06b70" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+06b70U+06b71U+06b72U+06b73U+06b74U+06b75U+06b76U+06b77U+06b78U+06b79U+06b7aU+06b7bU+06b7cU+06b7dU+06b7eU+06b7f"/>
+</font>
+<font id="script_06b71" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+06b70U+06b71U+06b72U+06b73U+06b74U+06b75U+06b76U+06b77U+06b78U+06b79U+06b7aU+06b7bU+06b7cU+06b7dU+06b7eU+06b7f"/>
+</font>
+</library>

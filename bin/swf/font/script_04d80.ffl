@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_04d80" output="bin\swf\font" format="0" static="false">
+<font id="script_04d80" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+04d80U+04d81U+04d82U+04d83U+04d84U+04d85U+04d86U+04d87U+04d88U+04d89U+04d8aU+04d8bU+04d8cU+04d8dU+04d8eU+04d8f"/>
+</font>
+<font id="script_04d90" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+04d90U+04d91U+04d92U+04d93U+04d94U+04d95U+04d96U+04d97U+04d98U+04d99U+04d9aU+04d9bU+04d9cU+04d9dU+04d9eU+04d9f"/>
+</font>
+<font id="script_04da0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+04da0U+04da1U+04da2U+04da3U+04da4U+04da5U+04da6U+04da7U+04da8U+04da9U+04daaU+04dabU+04dacU+04dadU+04daeU+04daf"/>
+</font>
+<font id="script_04db0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+04db0U+04db1U+04db2U+04db3U+04db4U+04db5U+04db6U+04db7U+04db8U+04db9U+04dbaU+04dbbU+04dbcU+04dbdU+04dbeU+04dbf"/>
+</font>
+</library>

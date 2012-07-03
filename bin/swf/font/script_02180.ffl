@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_02180" output="bin\swf\font" format="0" static="false">
+<font id="script_02180" family="Arial" style="0" cs="" type="1" path="script_latin0.otf" ascff="false" autoId="false">
+<include chars="U+02180U+02181U+02182U+02183U+02184U+02185U+02186U+02187U+02188U+02189U+0218aU+0218bU+0218cU+0218dU+0218eU+0218f"/>
+</font>
+</library>

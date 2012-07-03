@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="script_09580" output="bin\swf\font" format="0" static="false">
+<font id="script_09580" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+09580U+09581U+09582U+09583U+09584U+09585U+09586U+09587U+09588U+09589U+0958aU+0958bU+0958cU+0958dU+0958eU+0958f"/>
+</font>
+<font id="script_09590" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+09590U+09591U+09592U+09593U+09594U+09595U+09596U+09597U+09598U+09599U+0959aU+0959bU+0959cU+0959dU+0959eU+0959f"/>
+</font>
+<font id="script_095a0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+095a0U+095a1U+095a2U+095a3U+095a4U+095a5U+095a6U+095a7U+095a8U+095a9U+095aaU+095abU+095acU+095adU+095aeU+095af"/>
+</font>
+<font id="script_095b0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+095b0U+095b1U+095b2U+095b3U+095b4U+095b5U+095b6U+095b7U+095b8U+095b9U+095baU+095bbU+095bcU+095bdU+095beU+095bf"/>
+</font>
+<font id="script_095c0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+095c0U+095c1U+095c2U+095c3U+095c4U+095c5U+095c6U+095c7U+095c8U+095c9U+095caU+095cbU+095ccU+095cdU+095ceU+095cf"/>
+</font>
+<font id="script_095d0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+095d0U+095d1U+095d2U+095d3U+095d4U+095d5U+095d6U+095d7U+095d8U+095d9U+095daU+095dbU+095dcU+095ddU+095deU+095df"/>
+</font>
+<font id="script_095e0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+095e0U+095e1U+095e2U+095e3U+095e4U+095e5U+095e6U+095e7U+095e8U+095e9U+095eaU+095ebU+095ecU+095edU+095eeU+095ef"/>
+</font>
+<font id="script_095e1" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+095e0U+095e1U+095e2U+095e3U+095e4U+095e5U+095e6U+095e7U+095e8U+095e9U+095eaU+095ebU+095ecU+095edU+095eeU+095ef"/>
+</font>
+<font id="script_095f0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+<include chars="U+095f0U+095f1U+095f2U+095f3U+095f4U+095f5U+095f6U+095f7U+095f8U+095f9U+095faU+095fbU+095fcU+095fdU+095feU+095ff"/>
+</font>
+<font id="script_095f1" family="Arial" style="0" cs="" type="1" path="script_han1.ttf" ascff="false" autoId="false">
+<include chars="U+095f0U+095f1U+095f2U+095f3U+095f4U+095f5U+095f6U+095f7U+095f8U+095f9U+095faU+095fbU+095fcU+095fdU+095feU+095ff"/>
+</font>
+</library>
