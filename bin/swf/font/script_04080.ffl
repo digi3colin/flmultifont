@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<library name="script_04080" output="bin\swf\font" format="0" static="false">
-<font id="script_04080" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+04080U+04081U+04082U+04083U+04084U+04085U+04086U+04087U+04088U+04089U+0408aU+0408bU+0408cU+0408dU+0408eU+0408f"/>
-</font>
-<font id="script_04090" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+04090U+04091U+04092U+04093U+04094U+04095U+04096U+04097U+04098U+04099U+0409aU+0409bU+0409cU+0409dU+0409eU+0409f"/>
-</font>
-<font id="script_040a0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+040a0U+040a1U+040a2U+040a3U+040a4U+040a5U+040a6U+040a7U+040a8U+040a9U+040aaU+040abU+040acU+040adU+040aeU+040af"/>
-</font>
-<font id="script_040b0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+040b0U+040b1U+040b2U+040b3U+040b4U+040b5U+040b6U+040b7U+040b8U+040b9U+040baU+040bbU+040bcU+040bdU+040beU+040bf"/>
-</font>
-<font id="script_040c0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+040c0U+040c1U+040c2U+040c3U+040c4U+040c5U+040c6U+040c7U+040c8U+040c9U+040caU+040cbU+040ccU+040cdU+040ceU+040cf"/>
-</font>
-<font id="script_040d0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+040d0U+040d1U+040d2U+040d3U+040d4U+040d5U+040d6U+040d7U+040d8U+040d9U+040daU+040dbU+040dcU+040ddU+040deU+040df"/>
-</font>
-<font id="script_040e0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+040e0U+040e1U+040e2U+040e3U+040e4U+040e5U+040e6U+040e7U+040e8U+040e9U+040eaU+040ebU+040ecU+040edU+040eeU+040ef"/>
-</font>
-<font id="script_040f0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
-<include chars="U+040f0U+040f1U+040f2U+040f3U+040f4U+040f5U+040f6U+040f7U+040f8U+040f9U+040faU+040fbU+040fcU+040fdU+040feU+040ff"/>
-</font>
+<library name="script_04080" output="bin\swf\font" format="2" static="false">
+	<font id="script_04080" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+4080U+4081U+4082U+4083U+4084U+4085U+4086U+4087U+4088U+4089U+408AU+408BU+408CU+408DU+408EU+408F"/>
+	</font>
+	<font id="script_04090" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+4090U+4091U+4092U+4093U+4094U+4095U+4096U+4097U+4098U+4099U+409AU+409BU+409CU+409DU+409EU+409F"/>
+	</font>
+	<font id="script_040a0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+40A0U+40A1U+40A2U+40A3U+40A4U+40A5U+40A6U+40A7U+40A8U+40A9U+40AAU+40ABU+40ACU+40ADU+40AEU+40AF"/>
+	</font>
+	<font id="script_040b0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+40B0U+40B1U+40B2U+40B3U+40B4U+40B5U+40B6U+40B7U+40B8U+40B9U+40BAU+40BBU+40BCU+40BDU+40BEU+40BF"/>
+	</font>
+	<font id="script_040c0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+40C0U+40C1U+40C2U+40C3U+40C4U+40C5U+40C6U+40C7U+40C8U+40C9U+40CAU+40CBU+40CCU+40CDU+40CEU+40CF"/>
+	</font>
+	<font id="script_040d0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+40D0U+40D1U+40D2U+40D3U+40D4U+40D5U+40D6U+40D7U+40D8U+40D9U+40DAU+40DBU+40DCU+40DDU+40DEU+40DF"/>
+	</font>
+	<font id="script_040e0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+40E0U+40E1U+40E2U+40E3U+40E4U+40E5U+40E6U+40E7U+40E8U+40E9U+40EAU+40EBU+40ECU+40EDU+40EEU+40EF"/>
+	</font>
+	<font id="script_040f0" family="Arial" style="0" cs="" type="1" path="script_han0.otf" ascff="false" autoId="false">
+		<include chars="U+40F0U+40F1U+40F2U+40F3U+40F4U+40F5U+40F6U+40F7U+40F8U+40F9U+40FAU+40FBU+40FCU+40FDU+40FEU+40FF"/>
+	</font>
 </library>

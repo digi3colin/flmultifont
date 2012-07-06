@@ -20,19 +20,19 @@
 	/**
 	 * @author Digi3Studio - Colin Leung
 	 */
-	public class Main extends Sprite {
+	public class MainFontAS extends Sprite {
 		private var txtOutput:TextField;
 		private var txtInput:TextField;
-		private var btnExec:ButtonClip;
-	
-		public function Main() {
+		private var btnExec : ButtonClip;
+		private var fontSetNames : Vector.<String>;
+
+		public function MainFontAS() {
 			btnExec = new ButtonClip(this['btn_exec']);
 			txtInput = this['txt_input'];
 			txtOutput = this['txt_output'];
 
 			btnExec.when(ButtonClipEvent.CLICK,exec);
 		}
-
 		
 		private function exec(e:Event):void{
 			onTableLoaded(e);
@@ -40,6 +40,7 @@
 
 		private var range:Array=[];
 		private function onTableLoaded(e:Event):void{
+			fontSetNames = new Vector.<String>();
 			var xData:XML = UnicodeTable.instance().xData;
 			var xItems:XMLList = xData.children();
 			var i:int;
@@ -75,7 +76,7 @@
 			setupClickMap(cmap);
 
 			var startPoint:int = 0x00000;
-			var fontPerSet:int = 8;
+			var fontPerSet:int = 4;
 
 			for(i=startPoint; i<0x0FFFF; i+=fontPerSet*16){
 				makeFile(i,fontPerSet,"script");
@@ -83,11 +84,13 @@
 //			makeFile(0x4180,fontPerSet,"script");
 
 			var file:File = File.documentsDirectory;
-			file = file.resolvePath("font/cmap.png");
+			file = file.resolvePath("fontMaker/cmap.png");
 			var fileStream:FileStream = new FileStream();
 			fileStream.open(file, FileMode.WRITE);
 			fileStream.writeBytes(PNGEncoder.encode(bmpCMap.bitmapData, {}));
 			fileStream.close();
+
+			makeBuild();
 		}
 
 		private function drawSubset(cmap:BitmapData):void{
@@ -167,11 +170,9 @@
 //			var sFontStartPoint:String 	= StringUtils.fillPrefixZero(startPoint.toString(16),5);
 //			var lastCodePoint:int = startPoint+fontsPerSet-1;
 			//allow scripts:
-			
-
 			var allowScripts:Array = ['Han','Latin'];
 
-			var fontSetName:String = model.getFontSet(startPoint, fontName,fontsPerSet);
+			var fontSetName:String = model.getFontSet(startPoint, fontName,fontsPerSet).split('.swf')[0];
 
 			var sourceFontFile:Array = [];
 
@@ -180,8 +181,13 @@
 			sourceFontFile['Han1'] 					= fontName+'_han1.ttf';
 
 			var sResult:Array=[];
-			sResult.push('<?xml version="1.0" encoding="utf-8"?>');
-			sResult.push('<library name="'+fontSetName.split('.swf')[0]+'" output="bin\\swf\\font" format="0" static="false">');
+			sResult.push('package{');
+			sResult.push('import mx.core.FontAsset;');
+			sResult.push('import flash.display.Sprite;');
+			sResult.push('import flash.system.Security;');
+			sResult.push('import flash.text.Font;');
+			sResult.push('import flash.utils.describeType;');
+			sResult.push('public class '+fontSetName.toUpperCase()+' extends Sprite{');
 
 			for(var i:int=startPoint;i<(startPoint+(fontsPerSet*16));i+=16){
 				// if block is not in allow list, skip it
@@ -211,33 +217,58 @@
 				}
 				if(needEmbed==false)continue;
 
+				var strChars:Array = [];
 				//create the font list
 				for(var l:int=0;l<=subsetCount;l++){
 					var snap:int = i&0xFFFF0|l;
 					var fontId:String = fontName+'_'+StringUtils.fillPrefixZero(snap.toString(16),5);
-					
-					sResult.push('<font id="'+fontId+'" family="Arial" style="0" cs="" type="1" path="'+sourceFontFile[range[i]+l]+'" ascff="false" autoId="false">');				
-					var strChars:String = '';
+
+					strChars = [];
 					for(j=i;j<(i+16);j++){
 						//if char is no font, no need to embed
 						if(model.getCharCodeScriptCode(j,bmpCMap.bitmapData)==0xFFFFFF)continue;
-						strChars += 'U+'+StringUtils.fillPrefixZero(j.toString(16),5);
+						strChars.push('U+'+StringUtils.fillPrefixZero(j.toString(16),4));
 					}
-					sResult.push('<include chars="'+strChars+'"/>');
-					sResult.push('</font>');
+					sResult.push('[Embed(source="'+sourceFontFile[range[i]+l]+'", mimeType="application/x-font-truetype", fontName="'+fontId+'", unicodeRange="'+strChars.join(",")+'")]');
+					sResult.push('public  var '+fontId+':Class;');
 				}
 			}
-			sResult.push('</library>');
+			sResult.push('public function '+fontSetName.toUpperCase()+'(){');
+			sResult.push('FontAsset;');
+			sResult.push('Security.allowDomain("*");');
+			sResult.push('var xml:XML = describeType(this);');
+			sResult.push('for (var i:uint = 0; i < xml.variable.length(); i++)');
+			sResult.push('{Font.registerFont(this[xml.variable[i].@name]);}}}}');
 
 			txtOutput.text = sResult.join('\n');
 
 			//if script allow not found, do not export ffl
-			if(sResult.length<=3)return;
+			if(sResult.length<=13)return;
 
 			trace(startPoint.toString(16));
 
 			var file:File = File.documentsDirectory;
-			file = file.resolvePath("font/"+fontSetName.split('.swf')[0]+'.ffl');
+			file = file.resolvePath("fontMaker/"+fontSetName.toUpperCase()+'.as');
+			var fileStream:FileStream = new FileStream();
+			fileStream.open(file, FileMode.WRITE);
+			fileStream.writeUTFBytes(sResult.join('\n'));
+			fileStream.close();
+
+			fontSetNames.push(fontSetName);
+		}
+		
+		private function makeBuild():void{
+			var sResult:Array = [];
+			sResult.push('<project>');
+			sResult.push('<target name="default">');
+			for(var i:int=0;i<fontSetNames.length;i++){
+				sResult.push('<fdt.launch.application projectname="FontMaker" mainclass="'+fontSetNames[i].toUpperCase()+'.as" target="../bin/'+fontSetNames[i]+'.swf"/>');
+			}
+			sResult.push('</target>');
+			sResult.push('</project>');
+
+			var file:File = File.documentsDirectory;
+			file = file.resolvePath("fontMaker/build.xml");
 			var fileStream:FileStream = new FileStream();
 			fileStream.open(file, FileMode.WRITE);
 			fileStream.writeUTFBytes(sResult.join('\n'));

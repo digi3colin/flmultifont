@@ -1,4 +1,5 @@
 ﻿package {
+	import doot.MultiFontText;
 	import flash.text.AntiAliasType;
 	import doot.ResolveLink;
 	import com.fastframework.view.ButtonClip;
@@ -15,7 +16,7 @@
 		private var txtOutput:TextField;
 		private var txtInput:TextField;
 		private var btnExec:ButtonClip;
-		private var utf:UnicodeEmbedTextField;
+		private var utf:MultiFontText;
 
 		public function MainLoad() {
 			ResolveLink.instance().setup(this, '');
@@ -25,8 +26,8 @@
 			txtOutput = this['txt_output'];
 			txtOutput.embedFonts = true;
 			
-			utf = new UnicodeEmbedTextField('body');
-			utf.when(UnicodeEmbedTextField.EVENT_LOAD_RANGE_READY, fontLoaded);			
+			utf = new MultiFontText('body');
+			utf.when(MultiFontText.EVENT_LOAD_RANGE_READY, fontLoaded);			
 
 			btnExec.when(ButtonClipEvent.CLICK,exec);
 			

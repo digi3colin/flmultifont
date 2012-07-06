@@ -14,7 +14,7 @@
 	/**
 	 * @author Digi3Studio - Colin Leung
 	 */
-	public class UnicodeEmbedTextField extends FASTEventDispatcher{
+	public class UnicodeEmbedText extends FASTEventDispatcher{
 		public static const EVENT_READY:String = "EVENT_READY";
 		public static const EVENT_CHANGE:String = "EVENT_CHANGE";
 		public static const EVENT_LOAD_RANGE_START:String = "EVENT_LOAD_RANGE_START";
@@ -28,7 +28,7 @@
 		
 		private var cmap:BitmapData;
 
-		public function UnicodeEmbedTextField(fontShortName:String) {
+		public function UnicodeEmbedText(fontShortName:String) {
 			//4 byte utf8 have 1FFFFF code point.
 			//1FFFFF = 2097151 bits = 262144 bytes;
 			//codepoint=0x4E12, codeRange=0x4E1, fontRange=0x4E
@@ -45,11 +45,11 @@
 		private function onCmapLoaded(e:Event):void{
 			cmap = new BitmapData(mcCmap.width, mcCmap.height,false,0);
 			cmap.draw(mcCmap);
-			dispatchEvent(new Event(UnicodeEmbedTextField.EVENT_READY));
+			dispatchEvent(new Event(UnicodeEmbedText.EVENT_READY));
 		}
 
 		private function loadReady(e:Event):void{
-			dispatchEvent(new Event(UnicodeEmbedTextField.EVENT_LOAD_RANGE_READY));
+			dispatchEvent(new Event(UnicodeEmbedText.EVENT_LOAD_RANGE_READY));
 		}
 
 		public function setText(text:String):void{

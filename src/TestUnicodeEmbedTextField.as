@@ -1,5 +1,7 @@
 ﻿package {
+	import doot.MultiFontText;
 	import doot.ResolveLink;
+
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.text.TextField;
@@ -9,16 +11,16 @@
 	 */
 	public class TestUnicodeEmbedTextField extends Sprite {
 		private var txt:TextField;
-		private var utf:UnicodeEmbedTextField;
+		private var utf:MultiFontText;
 
 		public function TestUnicodeEmbedTextField() {
 			txt = this['txt_output'];
 			txt.embedFonts = true;
 			ResolveLink.instance().setup(this, '');
 			
-			utf= new UnicodeEmbedTextField('script');
-			utf.once(UnicodeEmbedTextField.EVENT_READY, start);
-			utf.when(UnicodeEmbedTextField.EVENT_LOAD_RANGE_READY, fontLoaded);
+			utf= new MultiFontText('script');
+			utf.once(MultiFontText.EVENT_READY, start);
+			utf.when(MultiFontText.EVENT_LOAD_RANGE_READY, fontLoaded);
 
 		}
 
